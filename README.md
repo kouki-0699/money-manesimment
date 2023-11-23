@@ -4,10 +4,10 @@
 HTMLで作成したフォームに入力しPythonで処理をしてexcelに反映する
 
 ## Requirement
--Windodws11
--HTML5
--CSS3
--Python3.11
+-Windodws11  
+-HTML5  
+-CSS3  
+-Python3.11  
 
 ## Usage
 1.フォームを入力
