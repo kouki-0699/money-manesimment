@@ -10,9 +10,9 @@ HTMLで作成したフォームに入力しPythonで処理をしてexcelに反�
 -Python3.11  
 
 ## Usage
-1.フォームを入力
-2.Python(Openpyxl)で処理
-3.excelに反映
+1.フォームを入力  
+2.Python(Openpyxl)で処理  
+3.excelに反映  
 
 ## Features
 
