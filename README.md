@@ -16,6 +16,6 @@ HTMLで作成したフォームに入力しPythonで処理をしてexcelに反�
 
 
 ## Reference
-[HTML]:https://developer.mozilla.org/ja/docs/Web/HTML
-[CSS]:https://developer.mozilla.org/ja/docs/Learn/CSS
+[HTML]: https://developer.mozilla.org/ja/docs/Web/HTML
+[CSS]: https://developer.mozilla.org/ja/docs/Learn/CSS
 
