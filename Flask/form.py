@@ -17,11 +17,9 @@ def process_data():
     income = request.form['income']
     expenses = request.form['expenses']
     free_text = request.form['free_text']
-
-    amount = float(request.form['amount'])
     
     # データをエクセルファイルに書き込む
-    write_to_excel(date, month, income, expenses ,free_text ,amount )
+    write_to_excel(date, month, income, expenses ,free_text )
     
     return render_template('index.html')
 
