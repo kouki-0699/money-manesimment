@@ -54,7 +54,7 @@
     <h2>入力フォーム</h2>
     <!--入力フォーム-->
         <!--actionは後ほど--> 
-    <form action="" method="post">
+    <form action="/process_data" method="POST">
     <ul>
         <ui>
             <button type="submit" name="new_sheet" value="1">シート作成</button>
@@ -63,25 +63,25 @@
         <!--月-->
         <ui>
             <label for="manth">月：</label>
-            <input type="month" id="manth">
+            <input type="month" id="manth" name="month">
         </ui>
         <br>
         <!---日-->
         <ui>
             <label for="date">日：</label>
-            <input type="datetime-local" id="date">
+            <input type="datetime-local" id="date" name="dete">
         </ui>
         <br>
          <!--収入-->
         <ui>
             <label for="income">収入:</label>
-            <input type="number" id="income">
+            <input type="number" id="income" name="income">
         </ui>
         <br>
         <!--支出-->
         <ui>
             <label for="expenses">支出:</label>
-            <input inputmode="numeric" id="expenses">
+            <input inputmode="numeric" id="expenses" name="expenses">
         </ui>
         <br>
         <!--備考欄-->
