@@ -1,7 +1,7 @@
 # 収支管理フォーム
 
 ## Overview
-HTMLで作成したフォームに入力しPythonで処理をしてexcelに反映する
+HTMLで作成したフォームに入力しPythonで処理をしExcelに反映する
 
 ## Requirement
 -Windodws11  
@@ -11,7 +11,7 @@ HTMLで作成したフォームに入力しPythonで処理をしてexcelに反�
 
 ## Usage
 1.フォームを入力  
-2.Python(Openpyxl)で処理  
+2.Python(Flask&Pandaas)で処理  
 3.excelに反映  
 
 
