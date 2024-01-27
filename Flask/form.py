@@ -10,6 +10,9 @@ excel_file = 'allowance.xlsx'
 def index():
     return render_template('maney.html')
 
+import gspread  
+from oauth2client.service_account import ServiceAccountCredentials
+
 @app.route('/process_data', methods=['POST'])
 def process_data():
     month = request.form['month']
